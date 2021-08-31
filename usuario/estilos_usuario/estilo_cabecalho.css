@@ -1,0 +1,29 @@
+.container {
+	display: flex;
+	width: 100%;
+	flex-flow: column nowrap; /*coloca o conteúdo em coluna (um abaixo do outro)*/
+	justify-content: center; /*alinha os itens ao centro do container (tela)*/
+	align-items: center; /*alinha os itens ao centro*/
+}
+
+header {
+	background-color: #93E9BE; /*cor de fundo do cabeçalho*/
+	font-family: cambria;
+	font-size: 20pt; /*tamanho da fonte do cabeçalho*/
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.cabecalho a {
+    color: #0E1713; /*cor do título do cabeçalho*/
+    text-decoration: none;
+    display: flex;
+}
+
+.cabecalho img { /*imagem da logo*/
+	height: 200px;
+	width: 200px;
+	margin-right: 0.6%;
+	margin-left: 5%;
+}

@@ -1,0 +1,66 @@
+body {
+    font-family: cambria;
+    font-size: 17pt;
+    background-color: #3a5d4c;
+}
+
+.conteudo{
+	color: #1d2e26;
+	background-color: white;
+	position: relative;
+  	width: 60%; 
+  	padding: 60px;
+  	padding-top: 20px;
+  	margin-top: 4%;
+  	margin-bottom: 5%;
+  	border-radius: 10px;
+}
+
+
+label.dados {
+	display: inline-block;
+	margin-top: 5%;
+	margin-bottom: 1%;
+}
+
+input {
+	background-color: white;
+	border-radius: 4px;
+	width: 300px;
+  	height: 20px;
+  	font-family: cambria;
+  	font-size: 15pt;
+}
+
+.botao button {
+	font-family: cambria;
+	font-size: 15pt;
+	position: center;
+}
+
+.botao:hover button {
+	border-radius: 4px;
+	background-color: #93e9be;
+}
+
+div.cadastro {
+	font-family: cambria;
+	font-size: 13pt;
+	display: flex;
+	flex-direction: column;
+}
+
+.conteudo a {
+	text-decoration: none;
+}
+
+.cadastro a {
+	color: #3a5d4c;
+}
+
+footer {
+	color: #93e9be;
+	font-size: 12pt;
+	text-align: center;
+	margin-bottom: 3%;
+}
