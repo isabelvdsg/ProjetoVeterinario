@@ -20,7 +20,7 @@
 			</header>
 			<div class="conteudo">
 				<center>
-					<form action="tela_conexao_bd_animal.php" method="POST"> 
+					<form action="tela_conexaobd_animal.php" method="POST"> 
 						<div>
 							<h2>Cadastro de Animal</h2>
 							<label class="dados"><b>Nome:</b></label>
@@ -30,7 +30,7 @@
 							<input type="text" id="raca" name="raca" required/><br>
 							
 							<label class="dados"><b>Sexo:</b></label>
-							<input type="text" id="sexo_animal" name="sexo_animal" required/><br>
+							<input type="text" id="sexo" name="sexo" required/><br>
 						
 							<br>
 						</div>
