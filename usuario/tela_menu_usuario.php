@@ -107,7 +107,7 @@
 							<input type="text" id="id" name="id" required/><br
                                                         
 							<label class="dados"><b>Nome:</b></label>
-							<input type="text" id="nome" name="nome" required/><br
+							<input type="text" id="nome_animal" name="nome_animal" required/><br
 							
 							<label class="dados"><b>Raça:</b></label>
 							<input type="text" id="raca" name="raca" required/><br>
@@ -164,14 +164,14 @@
                                 <form id="novaConsulta" action="" method="post">
 					        <div>
 							<h2>Nova Consulta</h2>
-                                                        <label class="dados"><b>Id:</b></label>
-							<input type="text" id="cod" name="id" required/><br
+                                                        <label class="dados"><b>Codigo:</b></label>
+							<input type="text" id="cod" name="cod" required/><br
                                                                                                                           
 							<label class="dados"><b>Data:</b></label>
 							<input type="text" id="data" name="data" required/><br>
                                                                                                               
 							<label class="dados"><b>Nome do Animal:</b></label>
-							<input type="text" id="nome" name="nome" required/><br
+							<input type="text" id="nome_animal" name="nome_animal" required/><br
 							
 							<label class="dados"><b>Raça:</b></label>
 							<input type="text" id="raca" name="raca" required/><br>
