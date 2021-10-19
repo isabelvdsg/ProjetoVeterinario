@@ -229,7 +229,7 @@
             $.ajax({
                     type: 'POST',
                     dataType: 'json',
-                    url: 'salvar.php',
+                    url: 'cadastrar.php',
                     async: true,
                     data: dados,
                     success: function(response) {
@@ -247,7 +247,7 @@
             $.ajax({
                     type: 'POST',
                     dataType: 'json',
-                    url: 'salvar_animal.php',
+                    url: 'cadastrar_animal.php',
                     async: true,
                     data: dados,
                     success: function(response) {
